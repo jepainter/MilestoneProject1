@@ -12,3 +12,38 @@ body {
     background-color: #fafafa;
     color: #717171;
 }
+
+/* Navigation Section */
+
+.navbar-nav {
+    text-align: center
+}
+
+.navbar-brand img {
+    border: 3px solid #e45454;
+    max-width: 60px;
+}
+
+.navbar-brand-text {
+    font-weight: 600;
+    color:#e45454;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    vertical-align:middle;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#e45454;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid #e45454;
+}
