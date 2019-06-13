@@ -48,6 +48,13 @@ body {
     border: 1px solid #e45454;
 }
 
+
+/* Section Section */
+
+section {
+    margin-top:80px;
+}
+
 /* Footer Section */
 
 .footer-headings {
@@ -68,4 +75,42 @@ body {
     padding: 5px;
     width: 40px;
     height: 40px;
+}
+
+/* Media Queries */
+
+@media (min-width:992px) {
+    .navbar-brand img {
+        border: 3px solid #e45454;
+        max-width: 100px;
+    }
+    
+    .readme-link {
+        color:#717171;
+        transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+    }
+    
+    .footer-links li a i {
+        color: #717171;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #fafafa;
+        border-radius:50%;
+        transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+    }
+    
+    .readme-link:hover,
+    .footer-links li a i:hover {
+        color: #e45454;
+        border-color: #e45454;
+    }
 }
