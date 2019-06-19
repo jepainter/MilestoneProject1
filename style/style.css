@@ -68,15 +68,73 @@ section {
 
 /* About */
 
-.img-float {
+.band-img-float {
     border: 3px solid #e45454;
     border-radius: 100%;
+}
+
+/* Tours */
+
+.tour-date-item {
+    padding: 60px 40px 0px 40px;
+    border-left: 3px solid #e45454;
+    position: relative;
+}
+
+.tour-date-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.tour-date-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    display: block;
+    left: 20px;
+    top: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.tour-date-item:after {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #e45454;
+    position: absolute;
+    display: block;
+    left: -7px;
+    top: 40px;
+    content: "";
+}
+
+/* Discography */
+
+.album-img-float {
+    border: 3px solid #e45454;
+    max-width: 100px;
+}
+
+.video-section {
+    background-color:#e45454;
+    border-radius: 25px;
 }
 
 /* Bookings */
 
 .contact-forms {
     padding: 15px 0px 15px 0px;
+}
+
+.contact-btn {
+    background-color:#e45454;
+    border: 0px solid #e45454;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
 }
 
 .col-lg-8 {
@@ -127,9 +185,14 @@ section {
         max-width: 100px;
     }
 
-    .img-float{
+    .band-img-float{
         float: left;
         margin: 0px 10px 5px 0px;
+    }
+    
+    .album-img-float {
+        float: right;
+        max-width: 150px;
     }
     
     .contact-links li a i {
@@ -191,6 +254,10 @@ section {
         background-color: #e45454;
         border-color: #e45454;
         transform: scale(1.5);
+    }
+    
+    .contact-btn:hover {
+        background-color: #b34242; 
     }
 }
 
