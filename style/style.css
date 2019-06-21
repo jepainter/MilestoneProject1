@@ -87,7 +87,7 @@ section {
 .index-container {
     height: 100vh;
     background-color: #e45454;
-    background: url("../assets/images/monkees.jpg") no-repeat top left fixed;
+    background: url("../assets/images/monkees.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -135,7 +135,8 @@ section {
 
 .navquestion {
     height:100px;
-    padding: 20px 15px 20px 15px;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 .navquestion a {
@@ -146,10 +147,20 @@ section {
     color:#ffffff;
 }
 
+.border {
+    margin: 10px;
+}
+
 .vertical-center {
     margin: 0;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.horizontal-center {
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /*
@@ -204,14 +215,30 @@ section {
 
 /* Discography */
 
+.album-section {
+    margin: 15px;
+    border-radius: 25px;
+}
+
 .album-img-float {
     border: 3px solid #e45454;
     max-width: 100px;
 }
 
+.audio-player {
+    padding-bottom: 15px;
+    max-width:100%;
+}
+
+audio {
+    width:100%;
+}
+
 .video-section {
     background-color:#e45454;
     border-radius: 25px;
+    padding: 20px;
+    margin: 15px
 }
 
 /* Bookings */
