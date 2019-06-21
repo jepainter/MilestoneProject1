@@ -13,6 +13,22 @@ body {
     color: #717171;
 }
 
+.bg-clr-yellow {
+   background-color:#f9931e; 
+}
+
+.bg-clr-green {
+    background-color:#c3a61e;
+}
+
+.bg-clr-purple {
+    background-color:#a775d2;
+}
+
+.bg-clr-orange {
+    background-color:#e5562b;
+}
+
 /* General Text Formatting */
 
 .uppercase {
@@ -112,7 +128,36 @@ section {
     font-weight: bolder;
 }
 
+.navigation-container {
+    margin-top: 0px;
+    background-color:#e45454;
+}
 
+.navquestion {
+    height:100px;
+    padding: 20px 15px 20px 15px;
+}
+
+.navquestion a {
+    text-decoration: none;
+}
+
+.navquestion a span {
+    color:#ffffff;
+}
+
+.vertical-center {
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+}
+*/
 /* About */
 
 .band-img-float {
