@@ -29,7 +29,15 @@ body {
     background-color: #e5562b;
 }
 
-/* General Text Formatting */
+.bg-clr-blue {
+    background-color: #6eafd6;
+}
+
+.bg-clr-red {
+    background-color: #e45454;
+}
+
+/* General Formatting */
 
 .uppercase {
     text-transform: uppercase;
@@ -37,6 +45,18 @@ body {
 
 .headings {
     padding-top: 15px;
+}
+
+.border-box {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.box-format {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
 }
 
 /* Navigation Section */
@@ -87,7 +107,7 @@ section {
 .index-container {
     height: 100vh;
     background-color: #e45454;
-    background: url("../assets/images/monkees.jpg") no-repeat center;
+    background: url("../assets/images/monkees.jpg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -135,15 +155,9 @@ section {
 
 .navquestion {
     height: 100px;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .navquestion a {
@@ -154,10 +168,12 @@ section {
     color: #ffffff;
 }
 
+/* to take out if not used
 .border {
     margin: 10px;
 }
 
+/* to take out if not used
 .vertical-center {
     margin: 0;
     top: 50%;
@@ -170,6 +186,7 @@ section {
     transform: translateX(-50%);
 }
 
+
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -180,6 +197,8 @@ section {
 .band-img-float {
     border: 3px solid #e45454;
     border-radius: 25px;
+    margin: 10px auto 10px auto;
+    float: none;
 }
 
 /* Tours */
@@ -221,14 +240,17 @@ section {
 
 /* Discography */
 
-.album-section {
+/*.album-section {
     margin: 15px;
     border-radius: 25px;
 }
+*/
 
 .album-img-float {
     border: 3px solid #e45454;
     max-width: 100px;
+    margin: 10px auto 10px auto;
+    float: none;
 }
 
 .song-list {
@@ -244,13 +266,14 @@ audio {
     width: 100%;
 }
 
+/*
 .video-section {
     background-color: #e45454;
     border-radius: 25px;
     padding: 0px 20px 20px 20px;
     margin: 15px
 }
-
+/*
 /* Bookings */
 
 .contact-forms {
@@ -320,11 +343,12 @@ audio {
 
     .band-img-float {
         float: left;
-        margin: 0px 10px 5px 0px;
+        margin: 10px 10px 10px 0px;
     }
 
     .album-img-float {
         float: right;
+        margin: 10px;
         max-width: 150px;
     }
 
