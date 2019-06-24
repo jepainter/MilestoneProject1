@@ -44,7 +44,7 @@
                     <h1 class="jumbotron-heading">The Monkees</h1>
                     <p class="jumbotron-text">Welcome to our website.</p>
                     <p class="jumbotron-text"> Sign up to our newsletter and receive updates on all our tours, new albums and much more!!!
-                        <p><button class="btn btn-lg btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
+                        <p><button class="btn btn-lg btn-red-transition" data-toggle="modal" data-target="#newsletterModal">Sign Up!</button></p>
                 </div>
             </div>
         </div>
@@ -57,17 +57,17 @@
             </div>
         </div>
         <div class="row justify-content-around">
-            <div class="col-5 col-md-2 navquestion text-center bg-clr-yellow">
-                <a href="about.html" class="hvr-sweep-to-bottom"><span>Want to learn more about our band?</span></a>
+            <div class="col-5 col-md-2 navquestion box-format border-box text-center bg-clr-yellow">
+                <a href="about.html" class="hvr-bounce-in"><span>Want to learn more about our band?</span></a>
             </div>
-            <div class="col-5 col-md-2 navquestion text-center bg-clr-green">
-                <a href="tours.html" class="hvr-sweep-to-bottom"><span>Want to see our next tours?</span></a>
+            <div class="col-5 col-md-2 navquestion box-format border-box  text-center bg-clr-green">
+                <a href="tours.html" class="hvr-bounce-in"><span>Want to see our next tours?</span></a>
             </div>
-            <div class="col-5 col-md-2 navquestion text-center bg-clr-purple">
-                <a href="discography.html" class="hvr-sweep-to-bottom"><span>Want to view our catalogue / listen to us?</span></a>
+            <div class="col-5 col-md-2 navquestion box-format border-box text-center bg-clr-purple">
+                <a href="discography.html" class="hvr-bounce-in"><span>Want to view our catalogue / listen to us?</span></a>
             </div>
-            <div class="col-5 col-md-2 navquestion text-center bg-clr-orange">
-                <a href="contact.html" class="hvr-sweep-to-bottom"><span>Want to book us / contact us?</span></a>
+            <div class="col-5 col-md-2 navquestion box-format border-box text-center bg-clr-blue">
+                <a href="contact.html" class="hvr-bounce-in"><span>Want to book us / contact us?</span></a>
             </div>
         </div>
     </section>
@@ -120,6 +120,38 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal = Sign up to newsletter -->
+    <div class="modal" tabindex="-1" role="dialog" id="newsletterModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up to The Monkees Newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="contact-forms">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="First name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Surname</label>
+                            <input type="text" class="form-control" id="surname" aria-describedby="surnameHelp" placeholder="Surname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-red-transition">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Script files -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
