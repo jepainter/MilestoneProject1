@@ -3,7 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900&display=swap');
 
 body {
+    background-color: #e45454;
+    background: url("../assets/images/background95663.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: "Cairo", sans-serif;
+    
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 /* Color Schemes */
@@ -55,6 +66,22 @@ body {
     color: #ffffff;
 }
 
+.btn-green-transition {
+    color: #fafafa;
+    font-weight: 600;
+    background-color: #c3a61e;
+    border: 0px solid #c3a61e;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.btn-green-transition:hover {
+    background-color: #7cb71e;
+    color: #ffffff;
+}
+
 /* General Formatting */
 
 .uppercase {
@@ -63,6 +90,7 @@ body {
 
 .headings {
     padding-top: 15px;
+    font-weight: 600;
 }
 
 .border-box {
@@ -119,7 +147,20 @@ section {
     margin-top: 63px;
     padding: 15px;
 }
-
+/*
+.background {
+    background-color: #e45454;
+    background: url("../assets/images/background95663.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height:100vh;  /* check how to get footer higher on shorter pages
+}
+*/
 /* Index */
 
 .index-container {
@@ -227,7 +268,7 @@ section {
     content: "";
 }
 
-/* Discography */
+/* Media */
 
 /*.album-section {
     margin: 15px;
@@ -255,14 +296,6 @@ audio {
     width: 100%;
 }
 
-/*
-.video-section {
-    background-color: #e45454;
-    border-radius: 25px;
-    padding: 0px 20px 20px 20px;
-    margin: 15px
-}
-/*
 /* Bookings */
 
 .contact-forms {
@@ -288,6 +321,10 @@ audio {
 }
 
 /* Footer Section */
+
+footer {
+    margin-top: auto;
+}
 
 .footer-headings {
     padding-top: 15px;
