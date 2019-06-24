@@ -37,6 +37,24 @@ body {
     background-color: #e45454;
 }
 
+/* Buttons */
+
+.btn-red-transition {
+    color: #fafafa;
+    font-weight: 600;
+    background-color: #e45454;
+    border: 0px solid #e45454;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.btn-red-transition:hover {
+    background-color: #b34242;
+    color: #ffffff;
+}
+
 /* General Formatting */
 
 .uppercase {
@@ -143,11 +161,6 @@ section {
     color: #ffffff;
 }
 
-.btn--red {
-    background-color: #e45454;
-    font-weight: bolder;
-}
-
 .navigation-container {
     margin-top: 0px;
     background-color: #e45454;
@@ -166,30 +179,6 @@ section {
 
 .navquestion a span {
     color: #ffffff;
-}
-
-/* to take out if not used
-.border {
-    margin: 10px;
-}
-
-/* to take out if not used
-.vertical-center {
-    margin: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.horizontal-center {
-    margin: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-
-.hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
 }
 
 /* About */
@@ -278,15 +267,6 @@ audio {
 
 .contact-forms {
     padding: 15px 0px 15px 0px;
-}
-
-.contact-btn {
-    background-color: #e45454;
-    border: 0px solid #e45454;
-    transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
 }
 
 .col-lg-8 {
@@ -413,9 +393,6 @@ audio {
         transform: scale(1.5);
     }
 
-    .contact-btn:hover {
-        background-color: #b34242;
-    }
 }
 
 @media (min-width:768px) {
