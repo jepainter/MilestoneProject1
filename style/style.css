@@ -12,9 +12,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-family: "Cairo", sans-serif;
-    
+
     min-height: 100vh;
-    
+
     display: flex;
     flex-direction: column;
 }
@@ -261,14 +261,19 @@ section {
 
 /* -- Carousel - image size formatting */
 
+.carousel-dimension {
+    height: 30vh;
+}
+
 .img-dimension {
-    height: 350px;
-    width: auto;
+    height:29vh;
+    max-width:100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* -- Albums - image float and sizing, list formatting and audio player size formatting */
+
 .album-img-float {
     border: 3px solid #e45454;
     max-width: 100px;
@@ -356,6 +361,17 @@ footer {
         margin: 10px 10px 10px 0px;
     }
 
+    .carousel-dimension {
+        height: 50vh;
+    }
+
+    .img-dimension {
+        height: 49vh;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .album-img-float {
         float: right;
         margin: 10px;
@@ -425,6 +441,9 @@ footer {
 }
 
 @media (min-width:768px) {
+
+
+
     .col-lg-8>form {
         max-width: 70%;
         margin: 0 auto;
