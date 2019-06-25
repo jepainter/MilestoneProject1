@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900&display=swap');
 
+/* Background - for used on secondary pages, with code to fix footer for short content pages */
+
 body {
     background-color: #e45454;
     background: url("../assets/images/background95663.jpg") no-repeat center fixed;
@@ -17,10 +19,10 @@ body {
     flex-direction: column;
 }
 
-/* Color Schemes */
+/* Color Schemes - reusable colour schemes for pages and containers*/
 
 .nav-footer-color {
-    background-color: #fafafa;
+    background-color: #f5d395;
     color: #717171;
 }
 
@@ -48,7 +50,7 @@ body {
     background-color: #e45454;
 }
 
-/* Buttons */
+/* Buttons - reusable button formatting for use on pages to keep styling uniform*/
 
 .btn-red-transition {
     color: #fafafa;
@@ -82,7 +84,7 @@ body {
     color: #ffffff;
 }
 
-/* General Formatting */
+/* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
 
 .uppercase {
     text-transform: uppercase;
@@ -105,7 +107,7 @@ body {
     border-radius: 25px;
 }
 
-/* Navigation Section */
+/* Navigation Section - styling and formatting for use of reusable nav bar at top of pages*/
 
 .navbar-nav {
     text-align: center
@@ -141,27 +143,14 @@ body {
 }
 
 
-/* Section Section */
+/* Section - setting of default for mobile devices from which background image display on pages */
 
 section {
     margin-top: 63px;
     padding: 15px;
 }
-/*
-.background {
-    background-color: #e45454;
-    background: url("../assets/images/background95663.jpg") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    min-height:100vh;  /* check how to get footer higher on shorter pages
-}
-*/
-/* Index */
+
+/* Index - formatting of index page, including background image, opaque overlay, jumbotron and nav questions*/
 
 .index-container {
     height: 100vh;
@@ -222,7 +211,7 @@ section {
     color: #ffffff;
 }
 
-/* About */
+/* About - formatting for floating of images for mobile design*/
 
 .band-img-float {
     border: 3px solid #e45454;
@@ -231,7 +220,7 @@ section {
     float: none;
 }
 
-/* Tours */
+/* Tours - formatting of tour date page*/
 
 .tour-date-item {
     padding: 60px 40px 0px 40px;
@@ -268,13 +257,7 @@ section {
     content: "";
 }
 
-/* Media */
-
-/*.album-section {
-    margin: 15px;
-    border-radius: 25px;
-}
-*/
+/* Media - formatting of items for media page including image float, list formatting, audio player formatting*/
 
 .album-img-float {
     border: 3px solid #e45454;
@@ -296,7 +279,7 @@ audio {
     width: 100%;
 }
 
-/* Bookings */
+/* Bookings - formatting of contact forms container and contact links */
 
 .contact-forms {
     padding: 15px 0px 15px 0px;
@@ -320,7 +303,7 @@ audio {
     height: 40px;
 }
 
-/* Footer Section */
+/* Footer Section - reusable formatting for footers for every page */
 
 footer {
     margin-top: auto;
@@ -346,7 +329,7 @@ footer {
     height: 40px;
 }
 
-/* Media Queries */
+/* Media Queries - formatting of pages for responsive design on larger viewports */
 
 @media (min-width:992px) {
     .navbar-brand img {
@@ -429,7 +412,6 @@ footer {
         border-color: #e45454;
         transform: scale(1.5);
     }
-
 }
 
 @media (min-width:768px) {
