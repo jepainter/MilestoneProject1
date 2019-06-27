@@ -22,8 +22,11 @@ body {
 /* Color Schemes - reusable colour schemes for pages and containers*/
 
 .nav-footer-color {
-    background-color: #f5d395;
-    color: #717171;
+    background-color: #e7bd73;
+    color: #4a4949;
+    box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(231, 189, 115, 0.95);
 }
 
 .bg-clr-yellow {
@@ -127,6 +130,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
+    font-size:20px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -141,7 +145,6 @@ body {
 .navbar-light .navbar-toggler {
     border: 1px solid #e45454;
 }
-
 
 /* Section - setting of default for mobile devices from which background image display on pages */
 
@@ -193,7 +196,7 @@ section {
 
 .navigation-container {
     margin-top: 0px;
-    background-color: #e45454;
+    background-color: transparent;
 }
 
 .navquestion {
@@ -259,19 +262,6 @@ section {
 
 /* Media - formatting of items for media page including image float, list formatting, audio player formatting*/
 
-/* -- Carousel - image size formatting */
-
-.carousel-dimension {
-    height: 30vh;
-}
-
-.img-dimension {
-    height:29vh;
-    max-width:100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* -- Albums - image float and sizing, list formatting and audio player size formatting */
 
 .album-img-float {
@@ -292,6 +282,10 @@ section {
 
 audio {
     width: 100%;
+}
+
+iframe {
+    border: none;  /* to fix html validation error for attr frameborder=0 */
 }
 
 /* Bookings - formatting of contact forms container and contact links */
@@ -361,17 +355,6 @@ footer {
         margin: 10px 10px 10px 0px;
     }
 
-    .carousel-dimension {
-        height: 50vh;
-    }
-
-    .img-dimension {
-        height: 49vh;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .album-img-float {
         float: right;
         margin: 10px;
@@ -394,7 +377,7 @@ footer {
     }
 
     .readme-link {
-        color: #717171;
+        color: #4a4949;
         transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
         -moz-transition: all 0.35s ease-in-out;
@@ -402,13 +385,13 @@ footer {
     }
 
     .footer-links li a i {
-        color: #717171;
+        color: #4a4949;
         font-size: 25px;
         text-align: center;
         padding: 5px;
         width: 40px;
         height: 40px;
-        border: 3px solid #fafafa;
+        border: 3px solid #e7bd73;
         border-radius: 50%;
         transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
@@ -441,8 +424,6 @@ footer {
 }
 
 @media (min-width:768px) {
-
-
 
     .col-lg-8>form {
         max-width: 70%;
