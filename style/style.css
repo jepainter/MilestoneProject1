@@ -241,7 +241,7 @@ section {
 
 .tour-date-item {
     padding: 60px 40px 0px 40px;
-    border-left: 3px solid #e45454;
+    border-left: 3px solid #831f05;
     position: relative;
 }
 
@@ -266,7 +266,7 @@ section {
     height: 12px;
     width: 12px;
     border-radius: 50%;
-    background-color: #e45454;
+    background-color: #395812;
     position: absolute;
     display: block;
     left: -7px;
