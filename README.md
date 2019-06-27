@@ -99,6 +99,9 @@ The following languages, frameworks, libraries, IDE, repositories and tools were
 - [GitHub](https://github.com)
     - This project uses **GitHub** for hosting of project repository, as well a publishing of website. 
 
+- [Favicon](https://www.favicon.cc/)
+    - Used **Favicon.cc** to generate at favicon for my site.
+
 - [W3C Markup Validation Service](https://validator.w3.org/)
     - This project was tested using the **W3C Markup Validation Service** for checking conformity and validity of html content. 
 
@@ -226,6 +229,7 @@ This website can also be **locally deployed** by following the method outlined b
 - Audio-players: Code was adapted from [HTML.com](https://html.com/attributes/audio-src/) in order to play audio files.
 - Video-players: Code was adapted from [StackOverflow](https://stackoverflow.com/questions/19664622/disable-html5-video-autoplay) in order to play video, without autostart.
 - Modals: Code for fixing and making content scrollable was adapted from [StackOverflow](https://stackoverflow.com/questions/10476632/how-to-scroll-the-page-when-a-modal-dialog-is-longer-than-the-screen) 
+- Favicon:  Code for favicon adapted from [StackOverflow](https://stackoverflow.com/questions/11893478/add-favicon-to-website)
 
 ### Media
 - The photos, video and audio files used in this site were provided from CodeInstitute as part of the assets made available for the project.  It is used purely for educational purposes.
