@@ -63,6 +63,10 @@ This site is limited to front-end design only (HMTL, CSS and Bootstrap).
 
 ### Features Left to Implement
 - Feature A - A separate merchandising page can be included to allow the user to select and purchase merchandise (albums, t-shirts, etc.) regarding the band.
+- Feature B - An alert to pop up indicating that a form has successfully been submitted after validation - JavaScript required
+- Feature C - Actual submission of form for further processing on a server required - JavaScript required at least
+- Feature D - A container/blog that tracks social media posts from the band can be included as an aside on pages.
+
 
 ## Technologies Used
 
@@ -221,6 +225,7 @@ This website can also be **locally deployed** by following the method outlined b
 ### Code
 - Audio-players: Code was adapted from [HTML.com](https://html.com/attributes/audio-src/) in order to play audio files.
 - Video-players: Code was adapted from [StackOverflow](https://stackoverflow.com/questions/19664622/disable-html5-video-autoplay) in order to play video, without autostart.
+- Modals: Code for fixing and making content scrollable was adapted from [StackOverflow](https://stackoverflow.com/questions/10476632/how-to-scroll-the-page-when-a-modal-dialog-is-longer-than-the-screen) 
 
 ### Media
 - The photos, video and audio files used in this site were provided from CodeInstitute as part of the assets made available for the project.  It is used purely for educational purposes.
