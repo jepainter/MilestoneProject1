@@ -217,11 +217,10 @@ This website can also be **locally deployed** by following the method outlined b
 - The content for the Tour Page is purely fictional and do not represent any actual tour dates or venues, unless by pure coincidence.
 
 ### Media
-- The photos and audio files used in this site were provided from CodeInstitute as part of the assets made available for the project.  It is used purely for educational purposes.
+- The photos, video and audio files used in this site were provided from CodeInstitute as part of the assets made available for the project.  It is used purely for educational purposes.
 - Additional images were sourced from the following websites, used for educational purposes only:
     - [Wallpaperplay](https://wallpaperplay.com/board/60s-background-wallpapers): Background image for secondary pages (i.e. not index.html).
     - [FanPop](http://www.fanpop.com/clubs/the-monkees/images): Images for carousel on Media Page.
-- The video on the Media Page has been embedded from YouTube, and is only used for educational purposes.
 
 ### Acknowledgements
 - I would like to thank my mentor, Dick Vlaanderen, for input provided during the development of the site.
