@@ -3,6 +3,7 @@
 The deployed website can be accessed from here: [The Monkees](https://jepainter.github.io/MilestoneProject1/)
 
 ## Goal of the website
+
 The website created is a responsive and interactive website to show case The Monkees. 
 The band is a 60's era rock band, having produced numerous albums and peforming tours.
 The band is still active and can be booked for events.
@@ -33,11 +34,12 @@ This website provides the relevant functionality to satisfy both these requireme
 - As a user of the website, I want to be able to easily navigate the website, in order to quickly find the relevant information I require.
 - As a user of the website, I want the site to function well on any device size, while still maintaining correct functionality.
 
-### Wireframes and Design Considerations:
+### Wireframes:
 Wireframes for the initial development of the site can be found here:
 - [Mobile](https://github.com/jepainter/MilestoneProject1/blob/master/development/MilestoneProject1Mobile.pdf)
 - [Desktop](https://github.com/jepainter/MilestoneProject1/blob/master/development/MilestoneProject1.pdf)
 
+### Design considerations:
 It was decided to style the website with a 60's era feel (color palette, rounded containers, background image, etc).
 
 The design would utilise Bootstrap grid system, containers and components responsive to different screen sizes and devices. 
