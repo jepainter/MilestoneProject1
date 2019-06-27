@@ -74,8 +74,8 @@ body {
 .btn-green-transition {
     color: #fafafa;
     font-weight: 600;
-    background-color: #c3a61e;
-    border: 0px solid #c3a61e;
+    background-color: #93c31e;
+    border: 0px solid #93c31e;
     transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -85,6 +85,10 @@ body {
 .btn-green-transition:hover {
     background-color: #7cb71e;
     color: #ffffff;
+}
+
+.btn-tour {
+    margin-top: 10px;
 }
 
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
@@ -428,10 +432,5 @@ footer {
     .col-lg-8>form {
         max-width: 70%;
         margin: 0 auto;
-    }
-
-    .col-lg-8 {
-        border-right: 3px solid #e45454;
-        border-bottom: none;
     }
 }
