@@ -7,15 +7,17 @@
 body {
     background-color: #e45454;
     background: url("../assets/images/background95663.jpg") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     font-family: "Cairo", sans-serif;
 
     min-height: 100vh;
 
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -94,7 +96,7 @@ body {
 }
 
 .btn-tour {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
@@ -144,7 +146,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-size:20px;
+    font-size: 20px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -173,12 +175,15 @@ section {
     height: 100vh;
     background-color: #e45454;
     background: url("../assets/images/monkees.jpg") no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
 }
@@ -215,8 +220,14 @@ section {
 
 .navquestion {
     height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -353,10 +364,12 @@ footer {
 /* Modal formatting */
 
 /* Code adapted to make modal fixed with content scrollable from https://stackoverflow.com/questions/10476632/how-to-scroll-the-page-when-a-modal-dialog-is-longer-than-the-screen */
+
 .modal-body {
-    max-height:70vh;
-    overflow-y:auto;
+    max-height: 70vh;
+    overflow-y: auto;
 }
+
 /* End of code snippet */
 
 .modal-title {
@@ -445,9 +458,10 @@ footer {
         color: #fafafa;
         background-color: #e45454;
         border-color: #e45454;
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
         transform: scale(1.5);
     }
-    
 }
 
 @media (min-width:768px) {
