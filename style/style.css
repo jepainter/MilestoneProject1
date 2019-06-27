@@ -30,27 +30,27 @@ body {
 }
 
 .bg-clr-yellow {
-    background-color: #f9931e;
+    background-color: #f9931eed;
 }
 
 .bg-clr-green {
-    background-color: #c3a61e;
+    background-color: #c3a61eed;
 }
 
 .bg-clr-purple {
-    background-color: #a775d2;
+    background-color: #a775d2ed;
 }
 
 .bg-clr-orange {
-    background-color: #e5562b;
+    background-color: #e5562bed;
 }
 
 .bg-clr-blue {
-    background-color: #6eafd6;
+    background-color: #6eafd6ed;
 }
 
 .bg-clr-red {
-    background-color: #e45454;
+    background-color: #e45454ed;
 }
 
 /* Buttons - reusable button formatting for use on pages to keep styling uniform*/
@@ -69,6 +69,9 @@ body {
 .btn-red-transition:hover {
     background-color: #b34242;
     color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .btn-green-transition {
@@ -85,6 +88,9 @@ body {
 .btn-green-transition:hover {
     background-color: #7cb71e;
     color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .btn-tour {
@@ -151,7 +157,7 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-    border: 1px solid #e45454;
+    border: 1px solid #e7bd73;
 }
 
 /* Section - setting of default for mobile devices from which background image display on pages */
@@ -342,6 +348,20 @@ footer {
     padding: 5px;
     width: 40px;
     height: 40px;
+}
+
+/* Modal formatting */
+
+/* Code adapted to make modal fixed with content scrollable from https://stackoverflow.com/questions/10476632/how-to-scroll-the-page-when-a-modal-dialog-is-longer-than-the-screen */
+.modal-body {
+    max-height:70vh;
+    overflow-y:auto;
+}
+/* End of code snippet */
+
+.modal-title {
+    color: #fafafa;
+    font-weight: 600;
 }
 
 /* Media Queries - formatting of pages for responsive design on larger viewports */
