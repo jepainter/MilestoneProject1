@@ -88,7 +88,7 @@ body {
 }
 
 .btn-tour {
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 
 /* General Formatting - general formatting for reuse on pages, items such as headdings, containers for content*/
@@ -288,18 +288,10 @@ audio {
     width: 100%;
 }
 
-iframe {
-    border: none;  /* to fix html validation error for attr frameborder=0 */
-}
-
 /* Bookings - formatting of contact forms container and contact links */
 
 .contact-forms {
     padding: 15px 0px 15px 0px;
-}
-
-.col-lg-8 {
-    border-bottom: 3px solid #e45454;
 }
 
 .contact-links {
@@ -429,7 +421,7 @@ footer {
 
 @media (min-width:768px) {
 
-    .col-lg-8>form {
+    .col-lg-7>form {
         max-width: 70%;
         margin: 0 auto;
     }
