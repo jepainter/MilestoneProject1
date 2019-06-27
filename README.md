@@ -216,6 +216,10 @@ This website can also be **locally deployed** by following the method outlined b
 - The text for the About Page and Modal (David Jones) was copied from the [Wikipedia article - Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
 - The content for the Tour Page is purely fictional and do not represent any actual tour dates or venues, unless by pure coincidence.
 
+### Code
+- Audio-players: Code was adapted from [HTML.com](https://html.com/attributes/audio-src/) in order to play audio files.
+- Video-players: Code was adapted from [StackOverflow](https://stackoverflow.com/questions/19664622/disable-html5-video-autoplay) in order to play video, without autostart.
+
 ### Media
 - The photos, video and audio files used in this site were provided from CodeInstitute as part of the assets made available for the project.  It is used purely for educational purposes.
 - Additional images were sourced from the following websites, used for educational purposes only:
