@@ -155,6 +155,7 @@ This site was also tested manually in line with the user stories and general fun
     2. Checked that content is centered and viewable in container and structure looks good, stacked on top of one another on smaller screens and centered below albums on larger displays, verified working correctly.
     3. Video scales across all view screen sizes, verified working correctly.
     4. Video plays across all view screen sizes (Bug4: Video do not play on Apple Products - iPhone, iPad, iPad Pro), verfiied working on desktop and Andriod devices (Galaxy, Pixel). 
+    5. Bug4 Fix: Utilised the video tag instead of iFrame embed (issue with iOS devices), added prevent autostart and preload.  Functioning correctly in iOS devices.
 
 8. Navigation Questions:
     1. Go to "Home" page and scroll down to Navigation Questions below callout section.
