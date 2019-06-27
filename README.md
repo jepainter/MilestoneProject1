@@ -108,6 +108,9 @@ The following languages, frameworks, libraries, IDE, repositories and tools were
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
     - This project was tested using the **W3C CSS Validation Service** for checking conformity and validity of css content. 
 
+- [Autoprefixer CSS Online](https://autoprefixer.github.io/)
+    - Used **Autoprefixer CSS Online** tool to update/confirm prefixes for style.css code.
+
 ## Testing
 
 Testing for this site was performed as follows:
@@ -115,6 +118,7 @@ Testing for this site was performed as follows:
 ### Code Validation:
 The various html files was firstly tested using the W3C HTML Validation site, with no errors reported.
 The style.css file was tested using the W3C CSS Validation site, with no errors reported.
+The style.css file was run through the Autoprefixer CSS Online tool.
 
 This site was also tested manually in line with the user stories and general functionality.  The following testing scenarios were applied across all screen sizes (as a test of responsive design):
 
