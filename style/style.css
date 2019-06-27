@@ -102,6 +102,10 @@ body {
     font-weight: 600;
 }
 
+.headline-text {
+    font-size: 20px;
+}
+
 .border-box {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -308,6 +312,12 @@ audio {
     height: 40px;
 }
 
+.contact-names {
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
 /* Footer Section - reusable formatting for footers for every page */
 
 footer {
@@ -417,6 +427,7 @@ footer {
         border-color: #e45454;
         transform: scale(1.5);
     }
+    
 }
 
 @media (min-width:768px) {
