@@ -139,9 +139,11 @@ This site was also tested manually in line with the user stories and general fun
 5. Pictures:
     1. Go to "Media" page.
     2. Carousel should adjust size appropriately according to screen size and centered (Bug1: issue with display size on iPad Pro in portrait view).  Functioning well on all other devices and orientations.
-    3. Images to fill Carousel appropriately, without skewing/scaling issues or overflows outside of containers (Bug2: some scaling issues, especially iPad Pro, minor issues with other displays).
-    4. "Previous" and "Next" buttons on Carousel functional and responsive, verified working correctly. 
-    5. Using Carousel progress indicator at bottom to cycle images/jump to images tested, verified working correctly.
+    3. Bug1 Fix: Removed assigment of height (vh) to containers to prevent skewing/scalling issue of carousel container.
+    4. Images to fill Carousel appropriately, without skewing/scaling issues or overflows outside of containers (Bug2: some scaling issues, especially iPad Pro, minor issues with other displays).
+    5. Bug2 Fix: Assigned width of 100 to carousel-items to prevent skewing/scaling issues in the container. 
+    6. "Previous" and "Next" buttons on Carousel functional and responsive, verified working correctly. 
+    7. Using Carousel progress indicator at bottom to cycle images/jump to images tested, verified working correctly.
 
 6. Albums and audio players:
     1. Go to "Media" page.
@@ -149,6 +151,7 @@ This site was also tested manually in line with the user stories and general fun
     3. Checked that album images floats is central on top of song list for smaller screens, floats right of song list on larger displays, verified working correctly.   
     4. Checked audio players are centered within specific album container across different screen sizes, verified working correctly.
     5. Checked audio players function (stop, play, mute, skip) regardless of device type, verified working correctly (Bug3: multiple audio files can be played at once). 
+    6. Bug3 Fix: Requires JavaScript (not implemented) to prevent simultaneous playback for audio files.
 
 7. Video player:
     1. Go to "Media" page.
