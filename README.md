@@ -220,6 +220,8 @@ This website can also be **locally deployed** by following the method outlined b
 5. Select the location to where the cloned directory must be made.
 6. Input ```git clone``` together with the copied clone URL into Git Bash and press Enter.
 
+The deployed version on **GitHub Pages** is the same as the development version.
+
 
 ## Credits
 
