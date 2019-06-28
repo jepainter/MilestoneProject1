@@ -306,6 +306,18 @@ section {
 
 /* Media - formatting of items for media page including image float, list formatting, audio player formatting*/
 
+/* -- Carousel - carousel and image sizing to display images withing viewport minus navbar, without skew or scale issues */
+
+.img-carousel {
+    height: auto;
+}
+
+.img-dimension {
+    max-height: 65vh;
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+}
+
 /* -- Albums - image float and sizing, list formatting and audio player size formatting */
 
 .album-img-float {
