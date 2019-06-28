@@ -120,6 +120,8 @@ The various html files was firstly tested using the W3C HTML Validation site, wi
 The style.css file was tested using the W3C CSS Validation site, with no errors reported.
 The style.css file was run through the Autoprefixer CSS Online tool.
 
+The site was tested on Google Chrome (desktop and mobile through dev tools), Opera (desktop only) and Safari (mobile only) for functionality.  Verified working well.
+
 This site was also tested manually in line with the user stories and general functionality.  The following testing scenarios were applied across all screen sizes (as a test of responsive design):
 
 ### Testing Scenarios:
@@ -234,6 +236,7 @@ This website can also be **locally deployed** by following the method outlined b
 - Video-players: Code was adapted from [StackOverflow](https://stackoverflow.com/questions/19664622/disable-html5-video-autoplay) in order to play video, without autostart.
 - Modals: Code for fixing and making content scrollable was adapted from [StackOverflow](https://stackoverflow.com/questions/10476632/how-to-scroll-the-page-when-a-modal-dialog-is-longer-than-the-screen) 
 - Favicon:  Code for favicon adapted from [StackOverflow](https://stackoverflow.com/questions/11893478/add-favicon-to-website)
+- Background Fixed: Code for background fixed problem (iOS devices) adapted from [StackOverflow](https://stackoverflow.com/a/43058483)
 
 ### Media
 - The photos, video and audio files used in this site were provided from CodeInstitute as part of the assets made available for the project.  It is used purely for educational purposes.
