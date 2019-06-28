@@ -120,7 +120,7 @@ The various html files was firstly tested using the W3C HTML Validation site, wi
 The style.css file was tested using the W3C CSS Validation site, with no errors reported.
 The style.css file was run through the Autoprefixer CSS Online tool.
 
-The site was tested on Google Chrome (desktop and mobile through dev tools), Opera (desktop only) and Safari (mobile only) for functionality.  Verified working well.
+The site was tested on Google Chrome (desktop and mobile through dev tools), Opera (desktop only) and Safari (mobile only iPhone6) for functionality.  Verified working well.
 
 This site was also tested manually in line with the user stories and general functionality.  The following testing scenarios were applied across all screen sizes (as a test of responsive design):
 
@@ -153,10 +153,10 @@ This site was also tested manually in line with the user stories and general fun
 
 5. Pictures:
     1. Go to "Media" page.
-    2. Carousel should adjust size appropriately according to screen size and centered (Bug1: issue with display size on iPad Pro in portrait view).  Functioning well on all other devices and orientations.
-    3. Bug1 Fix: Removed assigment of height (vh) to containers to prevent skewing/scalling issue of carousel container.
+    2. Carousel (of pictures) should adjust size appropriately according to screen size and centered (Bug1: issue with display size on iPad Pro in portrait view).  Functioning well on all other devices and orientations.
+    3. Bug1 Fix: Assign height of auto to carousel-inner to size according to content height.
     4. Images to fill Carousel appropriately, without skewing/scaling issues or overflows outside of containers (Bug2: some scaling issues, especially iPad Pro, minor issues with other displays).
-    5. Bug2 Fix: Assigned width of 100 to carousel-items to prevent skewing/scaling issues in the container. 
+    5. Bug2 Fix: Assigned max-width of 100 and max-height of 65vh to carousel-items to prevent skewing/scaling issues in the container. 
     6. "Previous" and "Next" buttons on Carousel functional and responsive, verified working correctly. 
     7. Using Carousel progress indicator at bottom to cycle images/jump to images tested, verified working correctly.
 
