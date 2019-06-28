@@ -6,7 +6,7 @@
 
 body {
     font-family: "Cairo", sans-serif;
-    
+
     min-height: 100vh;
 
     display: -webkit-box;
@@ -19,22 +19,26 @@ body {
 }
 
 /* Code adapted from https://stackoverflow.com/a/43058483 to fix scaling issues on iOS devices */
-body:after{
-      content:"";
-      position:fixed; /* stretch a fixed position to the whole screen */
-      top:0;
-      height:100vh; /* fix for mobile browser address bar appearing disappearing */
-      left:0;
-      right:0;
-      z-index:-1; /* needed to keep in the background */
-      background: url("../assets/images/background95663.jpg") center center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-}
-/* End of code snippet */
 
+body:after {
+    content: "";
+    position: fixed;
+    /* stretch a fixed position to the whole screen */
+    top: 0;
+    height: 100vh;
+    /* fix for mobile browser address bar appearing disappearing */
+    left: 0;
+    right: 0;
+    z-index: -1;
+    /* needed to keep in the background */
+    background: url("../assets/images/background95663.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* End of code snippet */
 
 /* Color Schemes - reusable colour schemes for pages and containers*/
 
@@ -371,9 +375,9 @@ footer {
     color: #e45454;
     font-size: 25px;
     text-align: center;
-    padding: 5px;
-    width: 40px;
-    height: 40px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
 }
 
 /* Modal formatting */
